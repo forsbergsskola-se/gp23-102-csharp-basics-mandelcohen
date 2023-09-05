@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// mandel
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Welcome to 102 CSharp Basics!");

@@ -1,5 +1,5 @@
 ﻿/* mandel cohen
-230905
+Date: 23.09.05
 mandel.cohen@student.forsbergsskola.se */
 
 Console.WriteLine("Hello, World!");

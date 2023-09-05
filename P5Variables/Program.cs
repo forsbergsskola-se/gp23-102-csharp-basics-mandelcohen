@@ -1,5 +1,6 @@
 ﻿// mandel
 
+int number;
+number = 10;
 
-
-Console.WriteLine("Hello, World!");
+Console.WriteLine(number);
