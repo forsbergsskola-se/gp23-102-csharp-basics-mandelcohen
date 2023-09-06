@@ -46,14 +46,48 @@
 
 // exercise 7
 
-Console.WriteLine("Enter your weight in kg:");
-string inputA = Console.ReadLine();
-Console.WriteLine("Enter your height in cm:");
-string inputB = Console.ReadLine();
+// Console.WriteLine("Enter your weight in kg:");
+// string inputA = Console.ReadLine();
+// Console.WriteLine("Enter your height in meters:");
+// string inputB = Console.ReadLine();
 
-int a = int.Parse(inputA);
-int b = int.Parse(inputB);
+// float a = float.Parse(inputA);
+// float b = float.Parse(inputB);
 
-Console.WriteLine( a * b );
+// float BMI = a / (b * b);
+// Console.WriteLine($"Your BMI = {BMI}");
+
+// exercise 8
+
+// Console.WriteLine("Enter side A:");
+// string inputA = Console.ReadLine();
+// Console.WriteLine("Enter side B:");
+// string inputB = Console.ReadLine();
+
+// float a = float.Parse(inputA);
+// float b = float.Parse(inputB);
+
+// var h = (a * a) + (b * b);
+// var answer = Math.Sqrt(h);
+
+// Console.WriteLine($"The Hypotenuse is: {answer}");
+
+// exercise 9
+
+Console.WriteLine("Enter number of seconds to covert to minutes:");
+string seconds = Console.ReadLine();
+
+float x = float.Parse(seconds);
+
+float m = (x % 60);
+
+
+
+Console.WriteLine($"{m} minutes and {} seconds");
+    
+    
+
+
+
 
 
