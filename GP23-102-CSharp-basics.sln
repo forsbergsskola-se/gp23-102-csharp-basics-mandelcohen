@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P8Conversion", "P8Conversio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9Operators", "P9Operators\P9Operators.csproj", "{0C35A674-67EF-4C64-A888-F2F55E02260E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9OperatorsExercises", "P9OperatorsExercises\P9OperatorsExercises.csproj", "{219485E7-0537-45A4-B755-2415235FF034}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{0C35A674-67EF-4C64-A888-F2F55E02260E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C35A674-67EF-4C64-A888-F2F55E02260E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C35A674-67EF-4C64-A888-F2F55E02260E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219485E7-0537-45A4-B755-2415235FF034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219485E7-0537-45A4-B755-2415235FF034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219485E7-0537-45A4-B755-2415235FF034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219485E7-0537-45A4-B755-2415235FF034}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
