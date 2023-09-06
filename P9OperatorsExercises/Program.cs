@@ -1,6 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// mandel
 
-// exercise 1
+// exercise 1 
 
 Console.WriteLine(@"Welcome! 
 Please enter a value in km/h.");
@@ -11,5 +11,17 @@ float x = userNumber / 60 / 60 * 1000;
 Console.WriteLine($"That would be {x} m/s");
 
 
-// excercise 2
+// exercise 2
+
+Console.WriteLine("Please enter number of minutes you want to convert to seconds.");
+userInput = Console.ReadLine();
+
+userNumber = float.Parse(userInput);
+float y = userNumber * 60;
+Console.WriteLine($"There are {y} seconds in {userInput} minutes.");    
+
+// exercise 3
+
+
+
 
