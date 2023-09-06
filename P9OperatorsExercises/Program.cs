@@ -44,6 +44,14 @@
 
 // exercise 5
 
+// Console.WriteLine("Enter number to negate:");
+// string input = Console.ReadLine();
+
+// int x = int.Parse(input);
+
+// Console.WriteLine($"-{input}");
+
+
 // exercise 7
 
 // Console.WriteLine("Enter your weight in kg:");
@@ -74,17 +82,16 @@
 
 // exercise 9
 
-Console.WriteLine("Enter number of seconds to covert to minutes:");
-string seconds = Console.ReadLine();
+// Console.WriteLine("Enter number of seconds to covert to minutes:");
+// string seconds = Console.ReadLine();
 
-float x = float.Parse(seconds);
+// int x = int.Parse(seconds);
 
-float m = (x % 60);
+// int s = (x % 60);
+// int m = (x - s) / 60;
 
 
-
-Console.WriteLine($"{m} minutes and {} seconds");
-    
+// Console.WriteLine($"That'll be {m} minutes and {s} seconds");
     
 
 
