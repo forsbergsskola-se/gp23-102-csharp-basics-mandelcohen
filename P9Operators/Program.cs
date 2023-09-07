@@ -19,5 +19,9 @@ Console.WriteLine($"Hours: {hours}");
 Console.WriteLine($"Days: {days}");
 
 
+TimeSpan ts = new TimeSpan(1, 10, 17, 36);
+Console.WriteLine(ts.ToString(@"d\.hh\:mm\:ss"));
 
-//$ Console.WriteLine($@"Seconds: {}"); Console.WriteLine($@"Minutes: {minutes}"); Console.WriteLine($@"Hours: {hours}"); Console.WriteLine($@"Days: {days}");
+var total = Convert.ToDecimal(userInput) / 86400;
+Console.WriteLine($"In total, that's {total}");
+
