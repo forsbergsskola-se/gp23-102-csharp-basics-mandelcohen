@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9OperatorsExercises", "P9O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10Boolean", "P10Boolean\P10Boolean.csproj", "{A392D021-DFCD-44F0-9617-F8AD6BEAEC57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11IfElse", "P11IfElse\P11IfElse.csproj", "{6E0BB571-B686-4F21-9766-27CFD441F6BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{A392D021-DFCD-44F0-9617-F8AD6BEAEC57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A392D021-DFCD-44F0-9617-F8AD6BEAEC57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A392D021-DFCD-44F0-9617-F8AD6BEAEC57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0BB571-B686-4F21-9766-27CFD441F6BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0BB571-B686-4F21-9766-27CFD441F6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0BB571-B686-4F21-9766-27CFD441F6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0BB571-B686-4F21-9766-27CFD441F6BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
