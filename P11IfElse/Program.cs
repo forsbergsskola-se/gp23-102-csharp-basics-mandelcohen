@@ -16,6 +16,12 @@ else {
 Console.WriteLine("Type another integer: ");
 var number = int.Parse(Console.ReadLine());
 
-String result = age < number ? "Age is greater." : "Age is less.";
-Console.WriteLine(result);
+var max = age > number ? age : number;
+Console.WriteLine($"The maximum is: {max}");
 
+if (max%2 == 0) {
+    Console.WriteLine("Your number is even.");
+}
+else {
+    Console.WriteLine("Your number is odd.");
+}
