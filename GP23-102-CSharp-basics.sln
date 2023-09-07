@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9Operators", "P9Operators\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9OperatorsExercises", "P9OperatorsExercises\P9OperatorsExercises.csproj", "{219485E7-0537-45A4-B755-2415235FF034}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10Boolean", "P10Boolean\P10Boolean.csproj", "{A392D021-DFCD-44F0-9617-F8AD6BEAEC57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{219485E7-0537-45A4-B755-2415235FF034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{219485E7-0537-45A4-B755-2415235FF034}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{219485E7-0537-45A4-B755-2415235FF034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A392D021-DFCD-44F0-9617-F8AD6BEAEC57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A392D021-DFCD-44F0-9617-F8AD6BEAEC57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A392D021-DFCD-44F0-9617-F8AD6BEAEC57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A392D021-DFCD-44F0-9617-F8AD6BEAEC57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
