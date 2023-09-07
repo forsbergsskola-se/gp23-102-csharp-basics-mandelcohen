@@ -16,4 +16,6 @@ else {
 Console.WriteLine("Type another integer: ");
 var number = int.Parse(Console.ReadLine());
 
+String result = age < number ? "Age is greater." : "Age is less.";
+Console.WriteLine(result);
 
