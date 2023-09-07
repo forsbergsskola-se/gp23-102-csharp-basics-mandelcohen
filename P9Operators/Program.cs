@@ -3,25 +3,21 @@
 Console.WriteLine("Give me a number of seconds: ");
 var userInput = int.Parse(Console.ReadLine());
 
-int remainingSeconds;
-var days = Math.DivRem(userInput, 86400, out remainingSeconds);
+int remainingH;
+var days = Math.DivRem(userInput, 86400, out remainingH);
 
-int remainingHours;
-var hours = Math.DivRem(remainingSeconds, 3600, out remainingHours);
+int remainingM;
+var hours = Math.DivRem(remainingH, 3600, out remainingM);
 
-int remainingMinutes;
-var minutes = Math.DivRem(remainingHours, 60, out remainingMinutes);
-
-var seconds = Math.DivRem(remainingMinutes, 60 out )
+int remainingS;
+var minutes = Math.DivRem(remainingM, 60, out remainingS);
 
 
+Console.WriteLine($"Seconds: {remainingS}");
+Console.WriteLine($"Minutes: {minutes}");
+Console.WriteLine($"Hours: {hours}");
+Console.WriteLine($"Days: {days}");
 
-
-
-
-
-Console.WriteLine("Give me a number of seconds: ");
-Console.WriteLine("Give me a number of seconds: ");
 
 
 //$ Console.WriteLine($@"Seconds: {}"); Console.WriteLine($@"Minutes: {minutes}"); Console.WriteLine($@"Hours: {hours}"); Console.WriteLine($@"Days: {days}");
