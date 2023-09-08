@@ -16,5 +16,9 @@ else if (myNumber < userNumber) {
     goto userTurn;
 }
 else {
-    Console.WriteLine("That's the number! Well played."); 
+    Console.WriteLine(@"That's the number! Well played.
+
+Go again!
+");
+    goto gameStart;
 }
