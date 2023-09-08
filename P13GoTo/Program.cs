@@ -1,22 +1,20 @@
 ﻿// mandel
 
-using System.ComponentModel.Design;
-
-var random = new Random();
-
+gameStart: ;
+var myNumber = Random.Shared.Next(0, maxValue:100);
 Console.WriteLine("I have picked a number (0-100) It's your turn to guess it!");
-var UserNumber = int.Parse(Console.ReadLine());
 
-userTurn:
-if (random > UserNumber) {
+userTurn: ;
+var userNumber = int.Parse(Console.ReadLine());  
+
+if (myNumber > userNumber) {
     Console.WriteLine("Nope! My number is greater.");
     goto userTurn;
 }
-else if (random < UserNumber) {
+else if (myNumber < userNumber) {
     Console.WriteLine("Nope! My number is smaller.");
     goto userTurn;
 }
-
-else (random = UserNumber){
-    Console.WriteLine("That's the number! Well played.");
+else {
+    Console.WriteLine("That's the number! Well played."); 
 }
