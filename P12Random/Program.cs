@@ -35,3 +35,5 @@ else
     Console.WriteLine("No Crit");
 }
 
+
+
