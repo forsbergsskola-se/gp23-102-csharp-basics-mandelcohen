@@ -3,14 +3,17 @@
 Console.WriteLine("What is your age: ");
 var age = int.Parse(Console.ReadLine());
 
-if (age < 13) {
-    Console.WriteLine("You are a child.");
-}
-else if (age is >= 13 and <= 19) {
-    Console.WriteLine("You are a teenager.");
-}
-else {
-    Console.WriteLine("You are an adult.");
+switch (age)
+{
+    case < 13:
+        Console.WriteLine("You are a child.");
+        break;
+    case >= 13 and <= 19:
+        Console.WriteLine("You are a teenager.");
+        break;
+    default:
+        Console.WriteLine("You are an adult.");
+        break;
 }
 
 Console.WriteLine("Type another integer: ");
