@@ -1,14 +1,14 @@
 ﻿// mandel
 
 // exercise 1 
-/*
+
 Console.WriteLine("Input km/h to convert to m/s");
 var userInput = double.Parse(Console.ReadLine());;
 
 var convertMs = userInput / 3.6;
 
 Console.WriteLine($@"That's {convertMs} m/s.");
-*/
+
 
 // exercise 1.2
 /*
@@ -82,7 +82,7 @@ Console.WriteLine($"Your BMI = {BMI}");
 */
 
 // exercise 8
-
+/*
 Console.WriteLine("Enter side A:");
 var inputA = float.Parse(Console.ReadLine());
 Console.WriteLine("Enter side B:");
@@ -92,18 +92,19 @@ var h = (inputA * inputA) + (inputB * inputB);
 var answer = MathF.Sqrt(h);
 
 Console.WriteLine($"The Hypotenuse is: {answer}");
-
+*/
 
 // exercise 9
-
+/*
 Console.WriteLine("Enter number of seconds to covert to minutes:");
 var userInput = int.Parse(Console.ReadLine());
 
-int s = (userInput % 60);
-int m = (userInput - s) / 60;
+int m = userInput / 60;
+int s = userInput % 60;
+
 
 Console.WriteLine($"That'll be {m} minutes and {s} seconds");
-    
+*/    
 
 
 
