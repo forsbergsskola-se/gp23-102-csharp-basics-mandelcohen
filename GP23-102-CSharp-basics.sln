@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_2MinMax", "P11_2MinMax\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_3Characters", "P11_3Characters\P11_3Characters.csproj", "{B6FA214A-0046-4666-ABB0-B6E0748DF09E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_4Calulator", "P11_4Calulator\P11_4Calulator.csproj", "{01962785-98AC-4618-BB62-EDE399116739}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +110,9 @@ Global
 		{B6FA214A-0046-4666-ABB0-B6E0748DF09E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6FA214A-0046-4666-ABB0-B6E0748DF09E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6FA214A-0046-4666-ABB0-B6E0748DF09E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01962785-98AC-4618-BB62-EDE399116739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01962785-98AC-4618-BB62-EDE399116739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01962785-98AC-4618-BB62-EDE399116739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01962785-98AC-4618-BB62-EDE399116739}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
