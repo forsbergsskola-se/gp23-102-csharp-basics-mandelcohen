@@ -1,5 +1,6 @@
 ﻿// mandel
 
+/*
 Console.WriteLine("Give me a number of seconds: ");
 var userInput = int.Parse(Console.ReadLine());
 
@@ -16,4 +17,16 @@ Console.WriteLine($"{days}:{hours}:{minutes}:{remainingS}");
 
 var total = Convert.ToDecimal(userInput) / 86400;
 Console.WriteLine($"In total, that's {total}");
+*/
+
+//P9_01SpeedConverter
+
+Console.WriteLine("Input km/h to convert to m/s");
+var userInput = int.Parse(Console.ReadLine());
+
+var convertMs = userInput / 3.6;
+
+Console.WriteLine($@"That's {convertMs} m/s.");
+
+
 
