@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P14Extra", "P14Extra\P14Ext
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_1Grades", "P11_1Grades\P11_1Grades.csproj", "{1A61A91C-4BA9-492D-B6C9-F83A28DF375A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_2MinMax", "P11_2MinMax\P11_2MinMax.csproj", "{3E585D7F-3A6D-4464-AADA-7A310E4B4B09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{1A61A91C-4BA9-492D-B6C9-F83A28DF375A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A61A91C-4BA9-492D-B6C9-F83A28DF375A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A61A91C-4BA9-492D-B6C9-F83A28DF375A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E585D7F-3A6D-4464-AADA-7A310E4B4B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E585D7F-3A6D-4464-AADA-7A310E4B4B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E585D7F-3A6D-4464-AADA-7A310E4B4B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E585D7F-3A6D-4464-AADA-7A310E4B4B09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
