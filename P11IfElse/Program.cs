@@ -15,10 +15,10 @@ switch (age) {
         break;
 }
 
-Console.WriteLine("Type another integer: ");
+Console.WriteLine("Give me another integer. ");
 var number = int.Parse(Console.ReadLine());
 
 var max = age > number ? age : number;
-Console.WriteLine($"The maximum is: {max}");
+Console.WriteLine($"The maximum is {max}");
 
 Console.WriteLine(max % 2 == 0 ? "Your number is even." : "Your number is odd.");
