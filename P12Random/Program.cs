@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 Console.WriteLine("Please pass me a seed (integer)");
 var seed = int.Parse(Console.ReadLine());
 
-var random = new Random(seed);
+Random random = new Random(seed);
 Console.WriteLine(random.Next(0, 5));
 Console.WriteLine(random.Next(0, 5));
 Console.WriteLine(random.Next(0, 5));

@@ -7,6 +7,16 @@ var inputO = char.Parse(Console.ReadLine());
 Console.WriteLine("Enter the second value:");
 var inputB = int.Parse(Console.ReadLine());
 
+if (inputO == '+') {
+    Console.WriteLine(inputA + inputB);
+}
+else if (inputO == '-') {
+    Console.WriteLine(inputA - inputB);
+}
+else if (inputO == '*') {
+    Console.WriteLine(inputA * inputB);
+}
+else {
+    Console.WriteLine(inputA / inputB);
+}
 
-//int answer = ;
-//Console.WriteLine(answer);
