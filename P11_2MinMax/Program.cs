@@ -1,27 +1,33 @@
 ﻿// mandel
 
 Console.WriteLine("Input first number:");
-var inputA = int.Parse(Console.ReadLine());
+var inputA = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Input second number:");
-var inputB = int.Parse(Console.ReadLine());
+var inputB = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Input third number:");
-var inputC = int.Parse(Console.ReadLine());
+var inputC = int.Parse(Console.ReadLine()!);
+
+int max;
+int min;
 
 if (inputA > inputB && inputA > inputC) {
-    Console.WriteLine($"{inputA},");
+    max = inputA;
 }
 else if (inputB > inputA && inputB > inputC) {
-    Console.WriteLine($"{inputB},");
+    max = inputB;
 }
 else {
-    Console.WriteLine($"{inputC},");
+    max = inputC;
 }
-if (inputA < inputB && inputA < inputC) {
-    Console.WriteLine($"{inputA}");
+
+if (inputA < inputB && inputA < inputC) { 
+    min = inputA;
 }
-else if (inputB < inputA && inputB < inputC) {
-    Console.WriteLine($"{inputB}");
+else if (inputB < inputA && inputB < inputC) { 
+    min = inputB;
 }
-else {
-    Console.WriteLine($"{inputC}");
+else { 
+    min = inputC;
 }
+
+Console.WriteLine($"{min},{max}");
