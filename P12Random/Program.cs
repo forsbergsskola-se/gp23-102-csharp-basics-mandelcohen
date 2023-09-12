@@ -26,13 +26,8 @@ Console.WriteLine(random.NextDouble()*(0.7 - 0.2)+0.2);
 Console.WriteLine("Give me a crit chance between 0.0 (0%) and 1.0 (100%)");
 var chance = double.Parse(Console.ReadLine());
 
-if (Random.Shared.NextDouble() > chance) {
-    Console.WriteLine("Crit");
-}
-else {
-    Console.WriteLine("No Crit");
-}
-
-
-
-
+Console.WriteLine(random.NextDouble() < chance ? "Crit" : "No Crit");
+Console.WriteLine(random.NextDouble() < chance ? "Crit" : "No Crit");
+Console.WriteLine(random.NextDouble() < chance ? "Crit" : "No Crit");
+Console.WriteLine(random.NextDouble() < chance ? "Crit" : "No Crit");
+Console.WriteLine(random.NextDouble() < chance ? "Crit" : "No Crit");
