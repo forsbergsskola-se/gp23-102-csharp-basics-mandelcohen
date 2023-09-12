@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_4Calculator", "P11_4Cal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_5EvenOdd", "P11_5EvenOdd\P11_5EvenOdd.csproj", "{94F845D9-018F-4AB0-8B80-D97F769A44CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12_1Random_Coordinates", "P12_1Random_Coordinates\P12_1Random_Coordinates.csproj", "{5C92B9E6-D8BE-40BD-AD67-628FA33C469D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,5 +122,9 @@ Global
 		{94F845D9-018F-4AB0-8B80-D97F769A44CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94F845D9-018F-4AB0-8B80-D97F769A44CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94F845D9-018F-4AB0-8B80-D97F769A44CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C92B9E6-D8BE-40BD-AD67-628FA33C469D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C92B9E6-D8BE-40BD-AD67-628FA33C469D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C92B9E6-D8BE-40BD-AD67-628FA33C469D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C92B9E6-D8BE-40BD-AD67-628FA33C469D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
