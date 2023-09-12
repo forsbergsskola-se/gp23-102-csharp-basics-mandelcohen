@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_3Characters", "P11_3Cha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_4Calculator", "P11_4Calculator\P11_4Calculator.csproj", "{01962785-98AC-4618-BB62-EDE399116739}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_5EvenOdd", "P11_5EvenOdd\P11_5EvenOdd.csproj", "{94F845D9-018F-4AB0-8B80-D97F769A44CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,9 @@ Global
 		{01962785-98AC-4618-BB62-EDE399116739}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01962785-98AC-4618-BB62-EDE399116739}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01962785-98AC-4618-BB62-EDE399116739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F845D9-018F-4AB0-8B80-D97F769A44CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F845D9-018F-4AB0-8B80-D97F769A44CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F845D9-018F-4AB0-8B80-D97F769A44CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F845D9-018F-4AB0-8B80-D97F769A44CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -7,9 +7,9 @@ Console.WriteLine("Please pass me a seed (integer)");
 var seed = int.Parse(Console.ReadLine());
 
 var random = new Random(seed);
-Console.WriteLine(random.Next(0, maxValue: 5));
-Console.WriteLine(random.Next(0, maxValue: 5));
-Console.WriteLine(random.Next(0, maxValue: 5));
+Console.WriteLine(random.Next(0, 5));
+Console.WriteLine(random.Next(0, 5));
+Console.WriteLine(random.Next(0, 5));
 
 Console.WriteLine("Three numbers between 0.0 and 0.5:");
 
@@ -26,14 +26,13 @@ Console.WriteLine(random.NextDouble()*(0.7 - 0.2)+0.2);
 Console.WriteLine("Give me a crit chance between 0.0 (0%) and 1.0 (100%)");
 var chance = double.Parse(Console.ReadLine());
 
-if (Random.Shared.NextDouble() < chance)
-{
+if (Random.Shared.NextDouble() > chance) {
     Console.WriteLine("Crit");
 }
-else
-{
+else {
     Console.WriteLine("No Crit");
 }
+
 
 
 

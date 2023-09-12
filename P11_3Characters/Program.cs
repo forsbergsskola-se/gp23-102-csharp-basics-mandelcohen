@@ -3,6 +3,8 @@
 Console.WriteLine("Type a single character:");
 var userInput = char.Parse(Console.ReadLine());
 
-// type out all vowels? 
+char vowel;
+char consonant;
+char digit;
 
 

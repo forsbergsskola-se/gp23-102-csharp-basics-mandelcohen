@@ -13,7 +13,7 @@ int min;
 if (inputA > inputB && inputA > inputC) {
     max = inputA;
 }
-else if (inputB > inputA && inputB > inputC) {
+else if (inputB > inputC) {
     max = inputB;
 }
 else {
@@ -23,7 +23,7 @@ else {
 if (inputA < inputB && inputA < inputC) { 
     min = inputA;
 }
-else if (inputB < inputA && inputB < inputC) { 
+else if (inputB < inputC) { 
     min = inputB;
 }
 else { 
