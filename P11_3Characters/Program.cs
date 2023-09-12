@@ -6,7 +6,7 @@ char userInput = char.Parse(Console.ReadLine());
 if (userInput is 'a' or 'e' or 'i' or 'o' or 'u' or 'y') {
     Console.WriteLine("That's a vowel!");
 }
-else if (userInput is >= '0' or <= '9') {
+else if (userInput is >= '0' and <= '9') {
     Console.WriteLine("That's a digit!");
 }
 else {
