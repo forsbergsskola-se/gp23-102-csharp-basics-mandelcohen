@@ -1,24 +1,27 @@
 ﻿// mandel
 
 Console.WriteLine("Welcome to NIM!");
-Console.WriteLine("|||||||||||||||||||||||| (24)");
+
+// playerTurn, toggle player and ai until one win or lose
+
 
 gameStart: ;
+Console.WriteLine("|||||||||||||||||||||||| (24)");  
 int matches = 24;
 
-userTurn: ;
+playerTurn: ;
 Console.WriteLine("How many matches do you want to draw?");
 int userDraw = int.Parse(Console.ReadLine());
 
-if (userDraw > 3) {
+if (userDraw is > 0 and > 3) {
     Console.Write("You can only draw 1,2 or 3 matches at time! ");
-    goto userTurn;
+    goto playerTurn;
 } 
 matches -= userDraw;
 
 if (matches <= 0) {
     Console.WriteLine("You lose!");
-    goto gameStart;
+    goto playerTurn;
 }
 
 Random random = new Random();
@@ -42,5 +45,5 @@ if (matchPrint > 1)
 }
 Console.WriteLine($"({matches})");
 
-goto userTurn;
+goto playerTurn ;
 

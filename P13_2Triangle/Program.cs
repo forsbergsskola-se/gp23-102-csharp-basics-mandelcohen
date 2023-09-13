@@ -12,3 +12,8 @@ if (triangle > 0) {
     goto printTriangle;
 }
 
+
+
+
+
+
