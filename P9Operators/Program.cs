@@ -13,7 +13,7 @@ Console.WriteLine($"Minutes: {minutes}");
 Console.WriteLine($"Hours: {hours}");
 Console.WriteLine($"Days: {days}");
 
-Console.WriteLine($"{days}:{hours}:{minutes}:{remainingS}");
+Console.WriteLine($"{days}.{hours}:{minutes}:{remainingS}");
 
 var total = Convert.ToDecimal(userInput) / 86400;
 Console.WriteLine($"In total, that's {total}");

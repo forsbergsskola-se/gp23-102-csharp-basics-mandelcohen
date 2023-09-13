@@ -1,7 +1,7 @@
 ﻿// mandel
 
 gameStart: ;
-int myNumber = Random.Shared.Next(0, maxValue:100);
+int myNumber = Random.Shared.Next(0, 101);
 Console.WriteLine("I have picked a number (0-100) It's your turn to guess it!");
 
 int counter = 10; 
