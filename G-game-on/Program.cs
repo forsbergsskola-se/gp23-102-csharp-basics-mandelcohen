@@ -1,8 +1,10 @@
 ﻿// mandel
-gameStart: ;
+
+// limit the user draw to 1,2 or 3. 
 
 Console.WriteLine("Welcome to NIM!");
 
+gameStart: ;
 int matches = 24;
 
 userTurn: ;
@@ -26,9 +28,15 @@ if (matches <= 0) {
     goto gameStart;
 }
 
-
-
-
+int matchPrint = matches;
+printMatches: ;
+Console.Write('|');
+if (matchPrint > 1)
+{
+    matchPrint--;
+    goto printMatches;
+}
+Console.WriteLine($"({matches})");
 
 goto userTurn;
 
