@@ -16,7 +16,7 @@ Go again!
 ");
     goto gameStart;
 }
-if (myNumber != userNumber && (counter <= 1)) {
+if (counter <= 1) {
     Console.WriteLine(@"You are out of tries :(
 Go again!
 ");
