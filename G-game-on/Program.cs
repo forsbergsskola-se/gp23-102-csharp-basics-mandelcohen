@@ -1,7 +1,5 @@
 ﻿// mandel
 
-// limit the user draw to 1,2 or 3. 
-
 Console.WriteLine("Welcome to NIM!");
 
 gameStart: ;
@@ -10,6 +8,11 @@ int matches = 24;
 userTurn: ;
 Console.WriteLine("How many matches do you want to draw?");
 int userDraw = int.Parse(Console.ReadLine());
+
+if (userDraw > 3) {
+    Console.Write("You can only draw 1,2 or 3 matches at time! ");
+    goto userTurn;
+} 
 matches -= userDraw;
 
 if (matches <= 0) {
