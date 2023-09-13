@@ -46,6 +46,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G-game-on", "G-game-on\G-ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13_1Dollars", "P13_1Dollars\P13_1Dollars.csproj", "{DAE13EDB-E52D-4D44-8E06-1E14BDBE7201}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13_2Triangle", "P13_2Triangle\P13_2Triangle.csproj", "{90ED0234-5159-418A-9EB1-4FDBA88B84E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -144,5 +146,9 @@ Global
 		{DAE13EDB-E52D-4D44-8E06-1E14BDBE7201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAE13EDB-E52D-4D44-8E06-1E14BDBE7201}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAE13EDB-E52D-4D44-8E06-1E14BDBE7201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90ED0234-5159-418A-9EB1-4FDBA88B84E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90ED0234-5159-418A-9EB1-4FDBA88B84E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90ED0234-5159-418A-9EB1-4FDBA88B84E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90ED0234-5159-418A-9EB1-4FDBA88B84E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

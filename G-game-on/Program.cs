@@ -1,6 +1,7 @@
 ﻿// mandel
 
 Console.WriteLine("Welcome to NIM!");
+Console.WriteLine("|||||||||||||||||||||||| (24)");
 
 gameStart: ;
 int matches = 24;
