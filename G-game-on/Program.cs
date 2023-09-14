@@ -17,45 +17,42 @@ if (playerTurn){
         Console.Write("You can only draw 1,2 or 3 matches at time! ");
         goto drawPhase;
     }
-
-    if (matches >= userDraw) {
-        matches -= userDraw;
-    }
-    else
-    {
+    if (matches < userDraw) {
         Console.WriteLine("You can't draw more matches than there's left!");
         goto drawPhase;
     }
+    matches -= userDraw;
 }
+
 if (!playerTurn) {
-    Random random = new Random();
-    int aiDraw = random.Next(1, 4);
-    
-    if (matches >= aiDraw) {
+    if (matches > 3) {
+        int aiDraw = Random.Shared.Next(1, 4);
         matches -= aiDraw;
+        Console.WriteLine($"The AI draws {aiDraw}");
     }
-    else {
-        goto drawPhase;
-    }
-    Console.WriteLine($"The AI draws {aiDraw}");
-    
+    if (matches <= 3) {                                     
+        int aiDraw = Random.Shared.Next(1, matches);       
+        matches -= aiDraw;                                 
+        Console.WriteLine($"The AI draws {aiDraw}");       
+    }                                                      
     int matchPrint = matches;
     printMatches: ;
     Console.Write('|');
     if (matchPrint > 1) { 
         matchPrint--; 
         goto printMatches;
-    }
+    }      
     Console.WriteLine($"({matches})");
 }
 
-gameOver: ; 
 if (matches < 1 && playerTurn) {
-    Console.WriteLine("You lose!");
+    Console.WriteLine(@"You lose!
+");
     goto gameStart;
 }
 if (matches < 1 && !playerTurn){
-    Console.WriteLine("You win!");
+    Console.WriteLine(@"You win!
+");
     goto gameStart;
 }
 
