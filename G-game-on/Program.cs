@@ -4,7 +4,7 @@ Console.WriteLine("Welcome to NIM!");
 
 gameStart: ;
 Console.WriteLine("|||||||||||||||||||||||| (24)");  
-int matches = 24;
+int matches = 6;
 bool playerTurn = true;
 
 drawPhase: ;
@@ -25,16 +25,17 @@ if (playerTurn){
 }
 
 if (!playerTurn) {
-    if (matches > 3) {
+    if (matches < 4) {
+        int aiDraw = Random.Shared.Next(1, matches);
+        matches -= aiDraw;
+        Console.WriteLine($"The AI draws {aiDraw}");
+    }
+    else {
         int aiDraw = Random.Shared.Next(1, 4);
         matches -= aiDraw;
         Console.WriteLine($"The AI draws {aiDraw}");
     }
-    if (matches <= 3) {                                     
-        int aiDraw = Random.Shared.Next(1, matches);       
-        matches -= aiDraw;                                 
-        Console.WriteLine($"The AI draws {aiDraw}");       
-    }                                                      
+    
     int matchPrint = matches;
     printMatches: ;
     Console.Write('|');
