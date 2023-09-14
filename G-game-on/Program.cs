@@ -4,7 +4,7 @@ Console.WriteLine("Welcome to NIM!");
 
 gameStart: ;
 Console.WriteLine("|||||||||||||||||||||||| (24)");  
-int matches = 4;
+int matches = 24;
 bool playerTurn = true;
 
 drawPhase: ;
