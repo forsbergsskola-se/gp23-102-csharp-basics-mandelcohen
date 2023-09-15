@@ -31,14 +31,18 @@ if (!playerTurn)
     matches -= aiDraw;
     Console.WriteLine($"The AI draws {aiDraw}");
 
-    int matchPrint = matches;
-    printMatches: ;
-    Console.Write('|');
-    if (matchPrint > 1) { 
-        matchPrint--; 
-        goto printMatches;
-    }      
-    Console.WriteLine($"({matches})");
+    if (matches > 0) {
+        int matchPrint = matches;
+        printMatches: ;
+        Console.Write('|');
+        if (matchPrint > 1)
+        {
+            matchPrint--;
+            goto printMatches;
+        }
+
+        Console.WriteLine($"({matches})");
+    }
 }
 
 if (matches < 1 && playerTurn) {

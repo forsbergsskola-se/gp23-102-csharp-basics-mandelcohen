@@ -2,7 +2,7 @@
 
 gameStart: ;
 int myNumber = Random.Shared.Next(0, 101);
-Console.WriteLine("I have picked a number (0-100) It's your turn to guess it!");
+Console.WriteLine("I have picked a number (0-100) It's your turn to guess it! (10 tries)");
 
 int counter = 10; 
 
