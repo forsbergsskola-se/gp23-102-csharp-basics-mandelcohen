@@ -11,7 +11,11 @@ drawPhase: ;
 
 if (playerTurn){
     Console.WriteLine("How many matches do you want to draw?");
-    int userDraw = int.Parse(Console.ReadLine());
+        
+    if (!int.TryParse(Console.ReadLine(), out int userDraw)) {
+        Console.Write("Invalid input, try again!");
+        goto drawPhase;
+    }
     
     if (userDraw is > 3 or < 1) {
         Console.Write("You can only draw 1,2 or 3 matches at time! ");
@@ -35,12 +39,10 @@ if (!playerTurn)
         int matchPrint = matches;
         printMatches: ;
         Console.Write('|');
-        if (matchPrint > 1)
-        {
+        if (matchPrint > 1) {
             matchPrint--;
             goto printMatches;
         }
-
         Console.WriteLine($"({matches})");
     }
 }
